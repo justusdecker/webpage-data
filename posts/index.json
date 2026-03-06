@@ -11,6 +11,11 @@
     },
     {
         "date": "11.2025",
+        "title": "Neues Projekt: Nokiator",
+        "id": "project-start-nokiator"
+    },
+    {
+        "date": "11.2025",
         "title": "Neues Projekt: PyNodle",
         "id": "project-start-pygame-node-editor"
     },
