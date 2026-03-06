@@ -8,5 +8,10 @@
         "date": "05.03.2026",
         "title": "Test Post",
         "id": "test-post"
+    },
+    {
+        "date": "09.2025",
+        "title": "Yolo indeed",
+        "id": "yolo-indeed"
     }
 ]
