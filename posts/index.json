@@ -10,6 +10,11 @@
         "id": "test-post"
     },
     {
+        "date": "11.2025",
+        "title": "Neues Projekt",
+        "id": "project-start-pygame-node-editor"
+    },
+    {
         "date": "09.2025",
         "title": "Yolo indeed",
         "id": "yolo-indeed"
