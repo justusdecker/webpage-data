@@ -11,3 +11,4 @@ Dieses Projekt dient der Optimierung meines Spieleentwicklungs-Workflows. Langfr
 * **Fokus auf Kernoptimierung**: Der Editor vereinfacht die Erstellung von Spielereignissen erheblich und dient als leistungsstarkes visuelles Backend für LPRT.
 
 Ich befinde mich aktuell in der intensiven Refactoring- und UI-Implementierungsphase (Phasen 1–4). Im [Repository](https://github.com/justusdecker/Node-Editor?tab=readme-ov-file) findet ihr den vollständigen Entwicklungsplan und einen Einblick in die in Entwicklung befindlichen Funktionen!
+![LinkedIn Image](https://media.licdn.com/dms/image/v2/D4E2DAQGw4vu6E73Rsg/profile-treasury-image-shrink_800_800/B4EZpY8Jl1KsAY-/0/1762428754769?e=1773424800&v=beta&t=KT_OJFgDWvthmQyPIq04PIQl6BWAXsDaOxmn85i9UdI)
