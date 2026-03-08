@@ -1,5 +1,10 @@
 [
     {
+        "date": "02.2026",
+        "title": "Neues Projekt: QSQL",
+        "id": "project-start-qsql"
+    },
+    {
         "date": "01.2026",
         "title": "Fortschritte: PyNodle",
         "id": "project-progress-pynodle1"
