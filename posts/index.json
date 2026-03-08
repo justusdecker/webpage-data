@@ -1,5 +1,10 @@
 [
     {
+        "date": "01.2026",
+        "title": "Fortschritte: PyNodle",
+        "id": "project-progress-pynodle1"
+    },
+    {
         "date": "12.2025",
         "title": "Projekt (fast) abgeschlossen: ApplicationManager",
         "id": "project-nfinished-applicationmanager"
