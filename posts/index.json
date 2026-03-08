@@ -1,6 +1,11 @@
 [
     {
         "date": "12.2025",
+        "title": "Neues Projekt: CV Creator",
+        "id": "project-start-cvc"
+    },
+    {
+        "date": "12.2025",
         "title": "Neues Projekt: pigUI",
         "id": "project-start-pigui"
     },
