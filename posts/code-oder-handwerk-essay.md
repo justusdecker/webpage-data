@@ -2,6 +2,8 @@
 
 ## Einleitung
 
+Programmierer werden?
+
 Eine gute Frage, auf der einen Seite heißt es: "Wir suchen händerringend!", auf der anderen: "Eh, nein".
 
 Nach über 300 Bewerbungen kein einziges Bewerbungsgespräch vorweisen zu können ist schon ziemlich traurig oder?
