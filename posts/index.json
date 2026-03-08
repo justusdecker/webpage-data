@@ -1,6 +1,11 @@
 [
     {
         "date": "12.2025",
+        "title": "Neues Projekt: pigUI",
+        "id": "project-start-pigui"
+    },
+    {
+        "date": "12.2025",
         "title": "Projektfortschritt: PyNodle",
         "id": "project-progress-pynodle"
     },
