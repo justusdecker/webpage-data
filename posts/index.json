@@ -1,5 +1,10 @@
 [
     {
+        "date": "12.2025",
+        "title": "Projektfortschritt: PyNodle",
+        "id": "project-progress-pynodle"
+    },
+    {
         "date": "11.2025",
         "title": "Projekt abgeschlossen: Nokiator",
         "id": "project-finished-nokiator"
