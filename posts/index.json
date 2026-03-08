@@ -1,6 +1,11 @@
 [
     {
         "date": "12.2025",
+        "title": "Projekt (fast) abgeschlossen: ApplicationManager",
+        "id": "project-nfinished-applicationmanager"
+    },
+    {
+        "date": "12.2025",
         "title": "Projekt abgeschlossen: CV Creator",
         "id": "project-finished-cvc"
     },
