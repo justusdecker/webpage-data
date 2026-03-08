@@ -1,4 +1,4 @@
-Projekt abgeschlossen: Moderne Medien für klassische Hardware – mit dem Nokiator Dateikonverter! 💾📱
+# Projekt abgeschlossen: Moderne Medien für klassische Hardware – mit dem Nokiator Dateikonverter! 💾📱
 
 ![Ein Nokia ist schön, ein Nokia toll](https://github.com/justusdecker/Nokiator/blob/main/data/icon.png?raw=true)
 
@@ -6,7 +6,7 @@ Ich freue mich riesig, die Fertigstellung und Veröffentlichung meines neuesten 
 
 Dieses Tool ist ein spezielles Windows-Batch-Skript, das als Wrapper für FFmpeg entwickelt wurde und einer wichtigen Aufgabe dient: die perfekte Kompatibilität moderner Mediendateien mit dem klassischen Nokia RM 1190 (Nokia 150) zu gewährleisten.
 
-Was der Nokiator leistet:
+## Was der Nokiator leistet:
 
 * Garantierte Wiedergabe: Konvertiert Videos (AVI/MPEG-4) exakt in die Auflösung von 176x144, die garantiert auf dem nativen Player läuft. Nie wieder Fehlermeldungen!
 * Akkuschonend: Optimiert Audio (MP3) für geringen Ressourcenverbrauch, damit die Musikwiedergabe die legendäre Akkulaufzeit nicht unnötig belastet.
