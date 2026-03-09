@@ -1,7 +1,12 @@
 [
     {
-        "timespan": "01.03.2026",
+        "timespan": "03.2026",
         "title": "Meine Webseite",
         "id": "my-website"
+    },
+    {
+        "timespan": "11.2025 - 12.2025",
+        "title": "AutomationManager",
+        "id": "automation-manager"
     }
 ]
