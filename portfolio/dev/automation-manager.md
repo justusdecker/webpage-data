@@ -1,4 +1,4 @@
-# Automation-Manager
+# Application-Manager
 
 Um den Bewerbungsprozess effizienter zu gestalten, die Jobangebote zu sortieren und am Ende eine Zusammenfassung der Bewerbungen zu bekommen habe ich dieses Tool entwickelt. Das gefilterte Suchen nach Jobangeboten in Anbetracht des eigenen Fachwissens, Interesse oder anderen Kriterien sind eine der stärken dieses Tools. 
 
