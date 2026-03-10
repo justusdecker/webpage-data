@@ -13,5 +13,10 @@
         "timespan": "11.2025 - 12.2025",
         "title": "pigUI / jmpUI",
         "id": "pigui"
+    },
+    {
+        "timespan": "11.2025",
+        "title": "Nokiator",
+        "id": "nokiator"
     }
 ]
