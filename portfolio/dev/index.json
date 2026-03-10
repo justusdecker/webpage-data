@@ -18,5 +18,10 @@
         "timespan": "11.2025",
         "title": "Nokiator",
         "id": "nokiator"
+    },
+    {
+        "timespan": "10.2025",
+        "title": "MPLP",
+        "id": "mplp"
     }
 ]
