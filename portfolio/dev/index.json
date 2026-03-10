@@ -8,5 +8,10 @@
         "timespan": "11.2025 - 12.2025",
         "title": "ApplicationManager",
         "id": "application-manager"
+    },
+    {
+        "timespan": "11.2025 - 12.2025",
+        "title": "pigUI / jmpUI",
+        "id": "pigui"
     }
 ]
