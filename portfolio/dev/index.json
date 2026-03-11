@@ -33,5 +33,15 @@
         "timespan": "09.2023 - 01.2026",
         "title": "LPRT",
         "id": "lprt"
+    },
+    {
+        "timespan": "04.2025 - 05.2025",
+        "title": "Pygame Engine",
+        "id": "pygame-engine"
+    },
+    {
+        "timespan": "02.2025 - 03.2025",
+        "title": "WIN - Ein Hackathon Projekt",
+        "id": "win"
     }
 ]
