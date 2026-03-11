@@ -23,5 +23,15 @@
         "timespan": "10.2025",
         "title": "MPLP",
         "id": "mplp"
+    },
+    {
+        "timespan": "09.2025",
+        "title": "Pycode-Info",
+        "id": "pycodeinfo"
+    },
+    {
+        "timespan": "09.2023 - 01.2026",
+        "title": "LPRT",
+        "id": "lprt"
     }
 ]
