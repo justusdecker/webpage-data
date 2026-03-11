@@ -1,3 +1,0 @@
-# Holz ist schön
-
-Lorem Ipsum...
