@@ -5,67 +5,131 @@
         "id": "der-weg-zum-elektroniker",
         "tags": [
             "elektronik",
-            ""
+            "handwerk",
+            "nachgang"
         ]
     },
     {
         "date": "08.03.2026 - 15:00",
         "title": "Code oder Handwerk - Essay",
-        "id": "code-oder-handwerk-essay"
+        "id": "code-oder-handwerk-essay",
+        "tags": [
+            "essay",
+            "code",
+            "handwerk"
+        ]
     },
     {
         "date": "02.2026",
         "title": "Neues Projekt: QSQL",
-        "id": "project-start-qsql"
+        "id": "project-start-qsql",
+        "tags": [
+            "projekt",
+            "qsql"
+        ]
     },
     {
         "date": "01.2026",
         "title": "Fortschritte: PyNodle",
-        "id": "project-progress-pynodle1"
+        "id": "project-progress-pynodle1",
+        "tags": [
+            "projekt",
+            "fortschritt",
+            "pynodle"
+        ]
     },
     {
         "date": "12.2025",
         "title": "Projekt (fast) abgeschlossen: ApplicationManager",
-        "id": "project-nfinished-applicationmanager"
+        "id": "project-nfinished-applicationmanager",
+        "tags": [
+            "projekt",
+            "abgeschlossen",
+            "fortschritt",
+            "applicationmanager"
+        ]
     },
     {
         "date": "12.2025",
         "title": "Projekt abgeschlossen: CV Creator",
-        "id": "project-finished-cvc"
+        "id": "project-finished-cvc",
+        "tags": [
+            "projekt",
+            "cvc",
+            "abgeschlossen"
+        ]
     },
     {
         "date": "12.2025",
         "title": "Neues Projekt: CV Creator",
-        "id": "project-start-cvc"
+        "id": "project-start-cvc",
+        "tags": [
+            "projekt",
+            "cvc",
+            "lebenslauf"
+        ]
     },
     {
         "date": "12.2025",
         "title": "Neues Projekt: pigUI",
-        "id": "project-start-pigui"
+        "id": "project-start-pigui",
+        "tags": [
+            "projekt",
+            "pigui"
+        ]
     },
     {
         "date": "12.2025",
         "title": "Projektfortschritt: PyNodle",
-        "id": "project-progress-pynodle"
+        "id": "project-progress-pynodle",
+        "tags": [
+            "projekt",
+            "fortschritt",
+            "pynodle"
+        ]
     },
     {
         "date": "11.2025",
         "title": "Projekt abgeschlossen: Nokiator",
-        "id": "project-finished-nokiator"
+        "id": "project-finished-nokiator",
+        "tags": [
+            "projekt",
+            "abgeschlossen",
+            "windows",
+            "batch",
+            "ffmpeg",
+            "nokiator"
+        ]
     },
     {
         "date": "11.2025",
         "title": "Neues Projekt: Nokiator",
-        "id": "project-start-nokiator"
+        "id": "project-start-nokiator",
+        "tags": [
+            "projekt",
+            "windows",
+            "batch",
+            "ffmpeg",
+            "nokiator"
+        ]
     },
     {
         "date": "11.2025",
         "title": "Neues Projekt: PyNodle",
-        "id": "project-start-pygame-node-editor"
+        "id": "project-start-pygame-node-editor",
+        "tags": [
+            "projekt",
+            "pygame",
+            "pynodle"
+        ]
     },
     {
         "date": "09.2025",
         "title": "Yolo indeed",
-        "id": "yolo-indeed"
+        "id": "yolo-indeed",
+        "tags": [
+            "yolo",
+            "achievement"
+        ]
     }
 ]
