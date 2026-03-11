@@ -29,4 +29,4 @@ Es sollte ein handwerklicher Beruf sein, in dem Bewegung und Norm / Disziplin ei
 ## Halten wir es simpel
 
 Kurz und knapp: Mein Ziel ist der Elektroniker.
-![Herr Steinig](https://raw.githubusercontent.com/justusdecker/webpage-data/refs/heads/main/der-weg-zum-elektroniker.jpg)
+![Herr Steinig](https://raw.githubusercontent.com/justusdecker/webpage-data/refs/heads/main/posts/der-weg-zum-elektroniker-steinig.jpg)
