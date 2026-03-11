@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Ultimate MD Writer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.5.0/github-markdown.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+    <style>
+        body { margin: 0; display: flex; flex-direction: column; height: 100vh; font-family: -apple-system, sans-serif; }
+        header { background: #24292f; color: white; padding: 10px 20px; display: flex; justify-content: space-between; flex-direction: column; }
+        main { display: flex; flex: 1; overflow: hidden; background: #fafaf6; }
+        
+        #head {display: flex; justify-content: space-between;}
+
+        .btn { background: #31363c; color: white; border: 1px solid #444c56; padding: 5px 12px; border-radius: 6px; cursor: pointer; font-size: 13px; font-weight: 500; }
+        .btn:hover { background: #444c56; }
+        .file-info { font-size: 12px; color: #8b949e; font-family: monospace; }
+
+        /* Split Screen */
+        #editor-container, #preview-container { width: 50%; height: 100%; display: flex; flex-direction: column; }
+        #editor { flex: 1; padding: 20px; border: none; border-right: 1px solid #ddded0; outline: none; font-family: 'SFMono-Regular', Consolas, monospace; font-size: 14px; line-height: 1.5; resize: none; background-color: #d3ccbf;}
+        #preview { flex: 1; padding: 40px; overflow-y: auto; background: #24292f; }
+
+        /* GitHub Alert Styles */
+        .markdown-alert { padding: 0.5rem 1rem; margin-bottom: 16px; color: inherit; border-left: .25em solid #d0d7de; }
+        .markdown-alert-note { border-left-color: #0969da; background: #f0f7ff; }
+        .markdown-alert-note .alert-title { color: #0969da; font-weight: 600; display: flex; align-items: center; gap: 8px; }
+        .markdown-alert-caution { border-left-color: #da3a09; background: #f0f7ff; }
+        .markdown-alert-caution .alert-title { color: #da3a09; font-weight: 600; display: flex; align-items: center; gap: 8px; }
+        .markdown-alert-important { border-left-color: #8250df; background: #fbefff; }
+        .markdown-alert-important .alert-title { color: #8250df; font-weight: 600; }
+        .markdown-alert-warning { border-left-color: #9a6700; background: #fff8c5; }
+        .markdown-alert-warning .alert-title { color: #9a6700; font-weight: 600; }
+        .markdown-alert-warning p { color:#9a6700; }
+        .markdown-alert-note p { color:#0969da; }
+        .markdown-alert-important p { color:#8250df; }
+        .markdown-alert-caution p { color:#da3a09; }
+    </style>
+</head>
+<body>
+
+<header>
+    <div id="head">
+        <strong>MD Data Writer</strong>
+        <span style="font-size: 12px; opacity: 0.8;">Markdown + GFM + LaTeX + Alerts</span>
+    </div>
+    
+    <div>
+        
+        <button class="btn" id="btnNew">📝 Neu</button>
+        <button class="btn" id="btnOpen">📂 Laden</button>
+        <button class="btn" id="btnSave">💾 Speichern</button>
+        <span class="file-info" id="status">Keine Datei ausgewählt</span>
+
+    </div>
+    
+    
+</header>
+
+<main>
+    <div id="editor-container">
+        <textarea id="editor" placeholder="Schreibe Markdown..."></textarea>
+    </div>
+    <div id="preview-container">
+        <div id="preview" class="markdown-body"></div>
+    </div>
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+
+<script>
+    const editor = document.getElementById('editor');
+    const preview = document.getElementById('preview');
+    let fileHandle = null;
+    // GitHub Alerts Parser (Pre-Processor)
+    function parseGitHubAlerts(text) {
+        const alerts = {
+            'NOTE': 'note',
+            'IMPORTANT': 'important',
+            'WARNING': 'warning',
+            'CAUTION': 'caution'
+        };
+        
+        return text.replace(/^> \[!(NOTE|IMPORTANT|WARNING|CAUTION)\]\n> (.*)/gm, (match, type, content) => {
+            return `<div class="markdown-alert markdown-alert-${alerts[type]}"><p class="alert-title">${type}</p><p>${content}</p></div>`;
+        });
+    }
+
+    function update() {
+        let rawContent = editor.value;
+        localStorage.setItem('md_writer_draft', rawContent);
+        
+        // 1. GitHub Alerts vorverarbeiten
+        let processedContent = parseGitHubAlerts(rawContent);
+        
+        // 2. Markdown zu HTML (Marked unterstützt Tabellen nativ)
+        preview.innerHTML = marked.parse(processedContent);
+        
+        // 3. LaTeX Rendern
+        renderMathInElement(preview, {
+            delimiters: [
+                {left: '$$', right: '$$', display: true},
+                {left: '$', right: '$', display: false}
+            ],
+            throwOnError: false
+        });
+    }
+
+    editor.addEventListener('input', update);
+
+    // Beispiel-Content
+    const savedDraft = localStorage.getItem('md_writer_draft');
+    editor.value = savedDraft || "# Los Gehts";
+    // Initialen View rendern
+    update();
+
+    // 3. LADEN
+    document.getElementById('btnOpen').onclick = async () => {
+        try {
+            [fileHandle] = await window.showOpenFilePicker({
+                types: [{ description: 'Markdown Files', accept: {'text/markdown': ['.md']} }]
+            });
+            const file = await fileHandle.getFile();
+            editor.value = await file.text();
+            status.textContent = `Datei: ${fileHandle.name}`;
+            update();
+        } catch (e) { console.log("Laden abgebrochen"); }
+    };
+
+    document.getElementById('btnNew').onclick = async () => {
+        try {
+            fileHandle = null;
+            editor.value = "";
+            status.textContent = "Keine Datei ausgewählt";
+            update();
+        } catch (e) { console.log("Laden abgebrochen"); }
+    };
+
+    // 4. SPEICHERN
+    document.getElementById('btnSave').onclick = async () => {
+        if (!fileHandle) {
+            // "Save As" wenn noch keine Datei geladen wurde
+            try {
+                fileHandle = await window.showSaveFilePicker({
+                    suggestedName: 'dokument.md',
+                    types: [{ description: 'Markdown', accept: {'text/markdown': ['.md']} }]
+                });
+            } catch (e) { return; }
+        }
+        const writable = await fileHandle.createWritable();
+        await writable.write(editor.value);
+        await writable.close();
+        status.textContent = `Datei: ${fileHandle.name} (Gespeichert um ${new Date().toLocaleTimeString()})`;
+    };
+
+</script>
+</body>
+</html>
