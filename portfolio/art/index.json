@@ -1,7 +1,17 @@
 [
     {
-        "timespan": "MM.YYYY - MM.YYYY",
+        "timespan": "01.2026",
         "title": "Karikaturen",
         "id": "karikaturen"
+    },
+    {
+        "timespan": "06.2016",
+        "title": "3D Modellierung",
+        "id": "3d-modellierung"
+    },
+    {
+        "timespan": "06.2016",
+        "title": "Zeichnen",
+        "id": "zeichnen"
     }
 ]
