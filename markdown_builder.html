@@ -35,6 +35,57 @@
         .markdown-alert-note p { color:#0969da; }
         .markdown-alert-important p { color:#8250df; }
         .markdown-alert-caution p { color:#da3a09; }
+        @media print {
+    /* 1. Layout-Fesseln lösen */
+    html, body {
+        height: auto !important;
+        overflow: visible !important;
+        background: white !important;
+    }
+
+    /* 2. Alles ausblenden, was nicht Text ist */
+    header, #editor-container, .btn, .file-info, #head {
+        display: none !important;
+    }
+
+    /* 3. Container für den Druck optimieren */
+    main {
+        display: block !important; /* Flexbox beim Drucken oft problematisch */
+        height: auto !important;
+    }
+
+    #preview-container {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    #preview {
+        width: 100% !important;
+        height: auto !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        overflow: visible !important;
+        background: white !important;
+        color: black !important;
+    }
+
+    /* 4. Sanfte Seitenumbrüche erzwingen (Optional) */
+    h1, h2, h3 {
+        page-break-after: avoid;
+    }
+    
+    p, img {
+        page-break-inside: avoid;
+    }
+    * {
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+}
+    @page {
+        size: A4;
+        padding: 20mm; /* Das ist dein echter Seitenabstand zum Rand */
+    }
     </style>
 </head>
 <body>
