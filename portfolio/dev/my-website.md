@@ -11,3 +11,7 @@ Das Entwickeln mit einer neuen Sprache / neuem Frameworks macht immer gute Laune
 Alle `blogs`, `portfolio-einträge`, `bilder` & ähnliches werden aus dem [Backend GitHub Repository]() gezogen. Ganz simpel über `index.json` und für jeden Eintrag eine Markdowndatei.
 
 Das hält das Projekt klein, macht alles übersichtlicher und einfacher schnelle Änderungen durchzuführen.
+
+## Version 1
+
+![Version 1](https://raw.githubusercontent.com/justusdecker/webpage-data/refs/heads/main/portfolio/dev/my-website-v1.png)
