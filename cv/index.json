@@ -70,6 +70,41 @@
     ,
     {
         "location": "Emden, Niedersachsen",
+        "timespan": "05.2023 - 11.2023",
+        "company": "<Auf Anfrage>",
+        "logo": "",
+        "profession": "Verkäufer",
+        "description": "...",
+        "tasks": [
+            "Kundenbedienung",
+            "Kassieren",
+            "Warenverräumung",
+            "Inventur"
+        ],
+        "tags": [
+            "arbeit"
+        ]
+    }
+    ,
+    {
+        "location": "Emden, Niedersachsen",
+        "timespan": "11.2021 - 05.2023",
+        "company": "<Auf Anfrage>",
+        "logo": "",
+        "profession": "Staplerfahrer",
+        "description": "...",
+        "tasks": [
+            "Verladen: Vollgut & Leergut",
+            "Einlagern & Auslagern",
+            "Umfuhr, Zählung / Inventur & Bereitstellung"
+        ],
+        "tags": [
+            "arbeit"
+        ]
+    }
+    ,
+    {
+        "location": "Emden, Niedersachsen",
         "timespan": "08.2020 - 01.2021",
         "company": "BBS II Emden",
         "logo": "",
