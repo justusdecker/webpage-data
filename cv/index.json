@@ -1,0 +1,33 @@
+[
+    {
+        "location": "Leer (Ostfriesland), Niedersachen, Deutschland",
+        "timespan": "04.2026 - XXXX",
+        "company": "Bfw-Unternehmen für Bildung",
+        "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQGvoUu6PGVt2Q/company-logo_100_100/B4EZzikRhlIUAQ-/0/1773327686410/bfw_unternehmen_fuer_bildung_logo?e=1775692800&v=beta&t=QuGfR50-sDV52_PU23llIIQaC3Kh9i3B3Et9IHWUOKE",
+        "profession": "Umschulung zum Elektroniker für Betriebstechnik",
+        "description": "Beschreibung kommt bald...",
+        "tasks": [
+            "Projektierung und Installation elektrischer Anlagen: Planung und Realisierung komplexer Systeme der Energieversorgung sowie Beleuchtungs- und Antriebstechnik unter strikter Einhaltung der geltenden VDE-Normen.",
+            "Automatisierung und SPS-Programmierung: Konfigurierung und Programmierung speicherprogrammierbarer Steuerungen, binde Sensorik sowie Aktorik an und optimiere so industrielle Prozessabläufe.",
+            "Systematische Instandhaltung und Fehlersuche: Analyse elektrischer Schutzmaßnahmen, regelmäßige Prüfungen und Behebung von Störungen in vernetzten Produktionsanlagen zur Sicherstellung der Betriebsbereitschaft."
+        ],
+        "tags": [
+            
+        ]
+    }
+    ,
+    {
+        "location": "",
+        "timespan": "",
+        "company": "",
+        "logo": "",
+        "profession": "",
+        "description": "",
+        "tasks": [
+
+        ],
+        "tags": [
+
+        ]
+    }
+]
