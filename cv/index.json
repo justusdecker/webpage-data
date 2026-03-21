@@ -1,6 +1,6 @@
 [
     {
-        "location": "Leer (Ostfriesland), Niedersachen, Deutschland",
+        "location": "Leer (Ostfriesland), Niedersachen",
         "timespan": "04.2026 - XXXX",
         "company": "Bfw-Unternehmen für Bildung",
         "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQGvoUu6PGVt2Q/company-logo_100_100/B4EZzikRhlIUAQ-/0/1773327686410/bfw_unternehmen_fuer_bildung_logo?e=1775692800&v=beta&t=QuGfR50-sDV52_PU23llIIQaC3Kh9i3B3Et9IHWUOKE",
@@ -50,6 +50,55 @@
         ],
         "tags": [
             "weiterbildung"
+        ]
+    }
+    ,
+    {
+        "location": "Emden, Niedersachsen",
+        "timespan": "03.2024 - 06.2024",
+        "company": "Akademie Überlingen",
+        "logo": "https://media.licdn.com/dms/image/v2/C4D0BAQFCXCz69fjU1A/company-logo_100_100/company-logo_100_100/0/1630527626225/akademie_berlingen_verwaltungs_logo?e=1775692800&v=beta&t=uyrQ1jiCw_qn2_pI-wvtDpRfEiWHluh0ytw2l-bUKjc",
+        "profession": "Weiterbildung zum Auslieferungsfahrer",
+        "description": "...",
+        "tasks": [
+            "Erhalt des Führerscheines der Klasse B"
+        ],
+        "tags": [
+            "weiterbildung"
+        ]
+    }
+    ,
+    {
+        "location": "Emden, Niedersachsen",
+        "timespan": "08.2020 - 01.2021",
+        "company": "BBS II Emden",
+        "logo": "https://www.berufsbildendeschulen2-emden.de/images/Template/Website_Logo_02.png",
+        "profession": "Berufsfachschule - Metalltechnik (Anlagenmechaniker)",
+        "description": "",
+        "tasks": [
+            
+        ],
+        "tags": [
+            "bfs",
+            "berufsfachschule",
+            "ausbildung"
+        ]
+    }
+    ,
+    {
+        "location": "Emden, Niedersachsen",
+        "timespan": "08.2019 - 06.2020",
+        "company": "BBS II Emden",
+        "logo": "https://www.berufsbildendeschulen2-emden.de/images/Template/Website_Logo_02.png",
+        "profession": "Berufsfachschule - KFZ Mechatroniker",
+        "description": "",
+        "tasks": [
+            
+        ],
+        "tags": [
+            "bfs",
+            "berufsfachschule",
+            "ausbildung"
         ]
     }
     ,
