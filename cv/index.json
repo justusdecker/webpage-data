@@ -72,7 +72,7 @@
         "location": "Emden, Niedersachsen",
         "timespan": "08.2020 - 01.2021",
         "company": "BBS II Emden",
-        "logo": "https://www.berufsbildendeschulen2-emden.de/images/Template/Website_Logo_02.png",
+        "logo": "",
         "profession": "Berufsfachschule - Metalltechnik (Anlagenmechaniker)",
         "description": "",
         "tasks": [
@@ -89,7 +89,7 @@
         "location": "Emden, Niedersachsen",
         "timespan": "08.2019 - 06.2020",
         "company": "BBS II Emden",
-        "logo": "https://www.berufsbildendeschulen2-emden.de/images/Template/Website_Logo_02.png",
+        "logo": "",
         "profession": "Berufsfachschule - KFZ Mechatroniker",
         "description": "",
         "tasks": [
@@ -103,17 +103,32 @@
     }
     ,
     {
-        "location": "",
-        "timespan": "",
-        "company": "",
+        "location": "Surwold, Niedersachsen",
+        "timespan": "09.2017 - 12.2017",
+        "company": "Baustoffe Gerdes",
         "logo": "",
-        "profession": "",
+        "profession": "Praktikum als Lagermitarbeiter",
         "description": "",
         "tasks": [
-
+            
         ],
         "tags": [
-
+            "praktikum"
+        ]
+    }
+    ,
+    {
+        "location": "Surwold, Niedersachsen",
+        "timespan": "10.2016 - 02.2017",
+        "company": "Baustoffe Gerdes",
+        "logo": "",
+        "profession": "Praktikum als Lagermitarbeiter",
+        "description": "",
+        "tasks": [
+            
+        ],
+        "tags": [
+            "praktikum"
         ]
     }
 ]
