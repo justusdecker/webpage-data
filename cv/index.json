@@ -22,12 +22,31 @@
         "timespan": "02.2026 - 04.2026",
         "company": "Webeet.io",
         "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQFCEsNI76yZAg/company-logo_100_100/B4EZyT8uxXIEAQ-/0/1772008697279/webeet_logo?e=1775692800&v=beta&t=XnY7z5jzo_2oZLhzx717ErBFPPLRTcrgeikAw5WK1Uw",
-        "profession": "Praktikum",
-        "description": "Beschreibung kommt bald...",
+        "profession": "Praktikum als Backend-Entwickler",
+        "description": "Pflichtpraktikum im Rahmen der Weiterbildung bei der Masterschool",
         "tasks": [
             "Entwickeln von effizienten APIs: Modularität mit Fastify und FastAPI - NextJS.",
             "Implementierung serverseitiger Logik mit TypeScript - Striktes ZOD Schema und SQL Lite",
             "Sicherstellung der Codequalität & Zuverlässigkeit...: Aufrechterhaltung hoher standards durch TDD mit Jest."
+        ],
+        "tags": [
+            "weiterbildung",
+            "praktikum"
+        ]
+    }
+    ,
+    {
+        "location": "Berlin (Remote)",
+        "timespan": "02.2025 - 04.2026",
+        "company": "Masterschool",
+        "logo": "https://media.licdn.com/dms/image/v2/D4D0BAQGWJWf8c0q3SQ/company-logo_100_100/B4DZZXd_VpHwAQ-/0/1745224202049/joinmasterschool_logo?e=1775692800&v=beta&t=0lIOU6f5AVOhqG7bNEFPaqGt8w2HRBqzBsDeaM3swdI",
+        "profession": "Weiterbildung zum Backend-Entwickler",
+        "description": "Erweiterung und Festigung meiner Fähigkeiten im Programmieren.",
+        "tasks": [
+            "Entwicklung von Backend-Applikationen mit Python, TypeScript, JavaScript & SQL - Überwiegend mit Flask",
+            "Anwendung von Objekt-Orientierter Programmierung und Test-driven Development",
+            "Einsetzen von Git, GitHub & GitLab für Versionskontrolle",
+            "Erweiterung meiner autodidaktischen Kenntnisse in Python, HTML, CSS, Batch(CMD) & JavaScript"
         ],
         "tags": [
             "weiterbildung"
