@@ -14,4 +14,10 @@ Das hält das Projekt klein, macht alles übersichtlicher und einfacher schnelle
 
 ## Version 1
 
+Die erste Version, damals erstellt mit Wordpress hatte diesen Header:
+
 ![Version 1](https://raw.githubusercontent.com/justusdecker/webpage-data/refs/heads/main/portfolio/dev/my-website-v1.png)
+
+## Version 2
+
+![Version 2](https://raw.githubusercontent.com/justusdecker/webpage-data/refs/heads/main/portfolio/dev/my-website-v2.png)
