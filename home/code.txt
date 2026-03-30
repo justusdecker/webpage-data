@@ -1,0 +1,11 @@
+Skripten in Batch/CMD kann ich bereits seit meiner Kindheit, irgendwann aber wurde es mühseelig, immer und immer wieder neue Workarounds zu finden, um sein Ziel zu erreichen.
+HTML, CSS & JavaScript lernte ich zwischenzeitlich.
+2021 wechselte ich dann schließlich zu Python, hier entwickle ich stetig Tools um mir das Leben zu vereinfachen.
+
+Mit dem ausgebauten Wissen aus der Masterschool, 
+meinem Praktikum bei Webeet.io und persönlichen Projekten kann ich bereits: 
+Python, C, Kotlin, C++, Java, JavaScript, HTML, CSS, TypeScript & Rust schreiben.
+
+Bei einigen ist nur die Syntax eingebrannt, 
+bei anderen arbeite ich effizient und professionell.
+
