@@ -1,3 +1,6 @@
+> [!WARN]
+> Unvollständig, fehlende Links bitte noch nachtragen und umstrukturieren!
+
 ### 2014
 
 Ursprünglich startete mein Weg durch das Thema Videobearbeitung damals mit dem von Microsoft mitgelieferten [Windows Movie Maker]() auf Windows XP. Sofort war ich davon angetan, meine eigenen kleinen Filmchen, damals noch mit meiner [BenQ X600]() aufgezeichnetes Videomaterial zu Verarbeiten. Meine Erinnerungen reichen noch soweit, dass ich als Erweiterung für die Schülerzeitung, Filme drehen / schneiden wollte, wozu es leider nie kam.
@@ -39,7 +42,3 @@ Aus anfänglichem Interesse, wurde zu feuriger Euphorie, bröckelte und brach sc
 Dennoch und jetzt mal Butter bei die Fische:
 
 Die Zeit war der Hammer, man hat viele "Begegnungen" und einfach viel Spaß gehabt.
-
-## Hinweis - An mich!
-
-Fehlende Links bitte noch nachtragen.
