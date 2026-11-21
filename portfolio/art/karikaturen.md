@@ -1,7 +1,0 @@
-Angefangen hatte ich mit "Karikaturen" ursprünglich vor drei Jahren. Entstanden ist die Idee vom Karikaturenzeichnen aus einer wiederholten Anwendung meiner "Zeichenkünste" im Alltag. Hier zeichnete ich häufiger den einen oder anderen Werner an die Fenster, in den Schnee oder auf Schmierblätter. Mit der Zeit auch andere Figuren, welche sich heute bedauerlicherweise nicht mehr in meinem Inventar befinden. 
-
-Allerdings entfachte erst vor wenigen Monaten, als ich mir meiner angestrebten beruflichen Zukunft im Elektrohandwerk erst so richtig bewusst wurde, das Feuer und sah diese kleine Spielerei als etwas, was mir durchaus nützen könnte.
-
-Ich zeichne kleine, lustige sowie ergänzende Bilder, welche dann mit in die [Zusammenfassungen](https://justusdecker.github.io/#/training-electrician/weekly-summary) einfließen um den aufkommenden Schulstoff verinnerlichen & natürlich weil es spaß macht.
-
-![Ein Bild zum Langeweile vertreiben](https://raw.githubusercontent.com/justusdecker/webpage-data/refs/heads/main/portfolio/art/karikaturen-bild1.jpg)
